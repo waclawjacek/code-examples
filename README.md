@@ -12,10 +12,12 @@ of a specific example or fork the repository to get the entire code.
 
 ## Available examples
 
-* **Check Plugin Dependencies**
-  An example WordPress plugin that will only execute its actual logic
-  if other plugins it depends on are running.
-  Related blog article: https://waclawjacek.com/check-wordpress-plugin-dependencies/
+### Check Plugin Dependencies
+
+An example WordPress plugin that will only execute its actual logic
+if other plugins it depends on are running.
+
+Related blog article: https://waclawjacek.com/check-wordpress-plugin-dependencies/
 
 ## License
 
