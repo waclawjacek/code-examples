@@ -64,7 +64,11 @@ class Dependency_Checker {
 	 * @return string[] Names of plugins that are required but are not active.
 	 */
 	private function get_missing_plugin_list() {
-		$missing_plugins = array_filter( self::REQUIRED_PLUGINS, array( $this, 'is_plugin_inactive' ), ARRAY_FILTER_USE_BOTH );
+		$missing_plugins = array_filter(
+			self::REQUIRED_PLUGINS,
+			array( $this, 'is_plugin_inactive' ),
+			ARRAY_FILTER_USE_BOTH
+		);
 
 		return array_keys( $missing_plugins );
 	}
