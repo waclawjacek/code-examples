@@ -21,8 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 				wp_kses(
 					/* translators: %s: Comma-separated list of inactive plugin names */
 					__(
-						'<strong>Error:</strong> The <em>Check Plugin Dependencies</em> plugin cannot execute because ' .
-						'the following required plugins are not active: %s. Please activate these plugins.',
+						'<strong>Error:</strong> The <em>Check Plugin Dependencies</em> plugin cannot execute because'
+						. ' the following required plugins are not active: %s. Please activate these plugins.',
 						'check-plugin-dependencies'
 					),
 					array(
